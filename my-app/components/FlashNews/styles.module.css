@@ -1,0 +1,54 @@
+.cards {
+    display: flex;
+    align-items: left;
+    margin-top: 40px;
+    padding: 10px 80px 20px;
+}
+
+.cardImage {
+    flex-shrink: 0;
+    position: relative;
+    height: 480px;
+    width: 50%;
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardBody {
+    margin-left: 16px;
+    
+}
+
+.cardBody p {
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cardBody h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 38px;
+}
+
+.buttons {
+    display: grid;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.icons{
+    
+    align-items: center;
+    margin-top: -20px;
+}
