@@ -24,7 +24,7 @@ async function getPost(id) {
     throw new Error(error);
   }
 }
-
+// test
 export default async function Page({ params }) {
   const { id, title, body, userId } = await getPost(params.id);
   if (!title) {
