@@ -1,0 +1,80 @@
+.cards {
+    display: flex;
+    align-items: left;
+    margin-top: 40px;
+    padding: 10px 80px 20px;
+    cursor: default;
+    
+}
+
+.cardImage {
+    display: grid;
+    max-height: 100%;
+    object-position: center;
+    position:sticky;
+    height: 480px;
+    width: 200%;
+    cursor: default;
+}
+
+.card img {
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+
+.cardBody {
+    margin-left: 16px;
+    
+}
+
+.cardBody p {
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: default;
+}
+
+.cardBody h3 {
+    cursor: default;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 38px;
+}
+
+.buttons {
+    display: grid;
+    display: block;
+    margin-left: auto;
+    margin-top: 40px;
+    background-color: #003c84;
+    border: none;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-weight: bold;
+}
+
+.time{
+    color: gray;
+    cursor: default;
+    font-style: italic;
+}
+
+.icons{
+    color: gray;
+    font-size: 25px;
+    align-items: center;
+    margin-top: -40px;
+}

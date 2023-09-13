@@ -1,0 +1,84 @@
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5em;
+}
+
+.cardImage {
+    display: grid;
+    grid-template-columns: auto;
+    position: sticky;
+    object-position: center;
+    width: 85%;
+    max-height: 100%;
+    height: 600px;
+}
+
+ 
+
+.cardImage img {
+    object-fit: cover;
+    border-radius: 16px;
+    
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 50px;
+    
+    width: 85%;
+    text-align: left;
+}
+
+.titles {
+    font-size: 40px;
+    margin-top: 30px;
+    width: 85%;
+    text-align: left;
+}
+
+.smallImage{
+    margin-top: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: 60px;
+    position: sticky;
+    
+}
+
+.text{
+    margin: auto;
+    margin-top: -70px;
+    margin-left: 180px;
+}
+
+.texts{
+    margin: auto;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    width: 200%;
+    margin-left: 160px;
+}
+
+.iconas{
+    margin-left: auto;
+    color: gray;
+    font-size: 25px;
+}
+
+.icona{
+    margin-right: auto;
+    display: grid;
+    margin-top: center;
+    margin-top: -400px;
+    font-size: 25px;
+    color: gray;
+}
+
