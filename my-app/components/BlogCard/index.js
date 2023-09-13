@@ -19,6 +19,7 @@ import "moment/locale/tr";
 import styles from "./styles.module.css";
 
 
+
 export default async function BlogCard({ title, body, id }) {
   return (
     <Link href={`/${id}`} className={styles.card}>
